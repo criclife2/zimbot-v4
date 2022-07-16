@@ -272,7 +272,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
   if (!('antivideo' in chats)) chats.antivideo = false
 } else global.db.chats[m.chat] = {
    mute: false,
-   chatbot: false,
+   chatbot: true,
    wame: false,
    antilink: false,
    antilinkyt: false,
@@ -512,7 +512,7 @@ hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
 hydratedButtons:  [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "url": ""
     }
 }, {
 quickReplyButton: {
@@ -565,7 +565,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedButtons:  [{        
       "urlButton": {
         "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "url": ""
       }
   }, {
   quickReplyButton: {
@@ -614,7 +614,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
           hydratedButtons:  [{        
               "urlButton": {
                 "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/DRIPSOFC"
+                "url": ""
               }
           }, {
           quickReplyButton: {
@@ -663,7 +663,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": ""
                 }
             }, {
             quickReplyButton: {
@@ -712,7 +712,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": ""
                 }
             }, {
             quickReplyButton: {
@@ -762,7 +762,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": ""
               }
             }, {
               quickReplyButton: {
@@ -813,7 +813,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": ""
               }
             }, {
               quickReplyButton: {
@@ -859,7 +859,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": ""
                 }
             }, {
             quickReplyButton: {
@@ -1174,7 +1174,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 15;
 setTimeout(function(){
-  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *SUBSCRIBE TO DRIPS OFC*\n\n*YOUTUBE:* https://www.youtube.com/c/DRIPSOFC\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"*𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵*",body:"SUBSCRIBE DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/ww4z2m3uORU`, sourceUrl: `https://youtu.be/ww4z2m3uORU` }}}, {quoted: m})
+  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *SUBSCRIBE TO DRIPS OFC*\n\n*YOUTUBE:* \n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"*𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵*",body:"SUBSCRIBE DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/ww4z2m3uORU`, sourceUrl: `https://youtu.be/ww4z2m3uORU` }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -4735,7 +4735,7 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: ''
 }
 }, {
 urlButton: {
@@ -7007,7 +7007,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: ''
 }
 }, {
 urlButton: {
@@ -7749,7 +7749,7 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/DRIPSOFC'
+            url: ''
         }
     }, {
         urlButton: {
@@ -7784,7 +7784,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: ''
     }
     }, {
     urlButton: {
@@ -7822,7 +7822,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: ''
     }
     }, {
     urlButton: {
@@ -7860,7 +7860,7 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    url: ''
     }
     }, {
     urlButton: {
@@ -7895,7 +7895,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8073,7 +8073,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8125,7 +8125,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8195,7 +8195,7 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8282,7 +8282,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8383,7 +8383,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8475,7 +8475,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8559,7 +8559,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
@@ -8625,7 +8625,7 @@ case 'nsfwmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8712,7 +8712,7 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8777,7 +8777,7 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8838,7 +8838,7 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8911,7 +8911,7 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "url": ""
   }
   }, {
   urlButton: {
@@ -8968,7 +8968,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"url": ""
 }
 }, {
 urlButton: {
