@@ -2209,7 +2209,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/ww4z2m3uORU\n*GITHUB:* https://github.com/zim-bot/zimbot-v4/fork\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
+  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/ww4z2m3uORU\n*GITHUB:* \n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -4177,7 +4177,7 @@ url: `${drips2.videos[0].url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+url: ``
 }
 }, {
 quickReplyButton: {
@@ -4239,7 +4239,7 @@ url: `${anu.url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/zim-bot/zimbot-v4/fork`
+url: ``
 }
 }, {
 quickReplyButton: {
@@ -4740,7 +4740,7 @@ url: ''
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }, {
 quickReplyButton: {
@@ -4834,7 +4834,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }, {
 quickReplyButton: {
@@ -5357,7 +5357,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5376,7 +5376,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5409,7 +5409,7 @@ await sleep(1500)
 let butoon = [{
 urlButton: {
 displayText: `GITHUB`,
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 },
 {
@@ -7012,7 +7012,7 @@ url: ''
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }, {
 quickReplyButton: {
@@ -7754,7 +7754,7 @@ anu = `
     }, {
         urlButton: {
             displayText: 'GITHUB',
-            url: 'https://github.com/zim-bot/zimbot-v4/fork'
+            url: ''
         }
     }, {
         quickReplyButton: {
@@ -7789,7 +7789,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    url: ''
     }
     }, {
     quickReplyButton: {
@@ -7827,7 +7827,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    url: ''
     }
     }, {
     quickReplyButton: {
@@ -7865,7 +7865,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    url: ''
     }
     }, {
     quickReplyButton: {
@@ -7895,7 +7895,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `` } }, { urlButton: { displayText: `GITHUB`, url : `` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -8078,7 +8078,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8130,7 +8130,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8200,7 +8200,7 @@ case 'photooxymenu': {
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8287,7 +8287,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8388,7 +8388,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8480,7 +8480,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8564,7 +8564,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
@@ -8630,7 +8630,7 @@ case 'nsfwmenu':{
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8717,7 +8717,7 @@ case 'animemenu':{
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8782,7 +8782,7 @@ case 'convertmenu': {
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8843,7 +8843,7 @@ case 'toolmenu': {
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8916,7 +8916,7 @@ case 'searchmenu':{
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  url: ''
   }
   }
   ]
@@ -8973,7 +8973,7 @@ hydratedButtons: [{
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: ''
 }
 }
 ]
