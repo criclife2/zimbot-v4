@@ -74,7 +74,7 @@ async function startZimBotInc() {
     const ZimBotInc = ZimBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['SUB DRIPS OFC','Ubuntu','20.0.04'],
+        browser: ['','Ubuntu','20.0.04'],
         auth: state,
         
     })
@@ -155,13 +155,13 @@ footer: `©𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:"𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵",
+body:"",
 showAdAttribution: true,
 mediaType:2,
 thumbnail:wangu,
-mediaUrl:`https://youtu.be/ww4z2m3uORU`, 
-sourceUrl: `https://youtu.be/ww4z2m3uORU`,
+mediaUrl:``, 
+sourceUrl: ``,
 }}
 }
 const driphunny = fs.readFileSync('./Zimbot/welcome.mp3')
@@ -188,13 +188,13 @@ footer: `©𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
-body:"SUB DRIPS OFC",
+title:"𝘔𝘪𝘴𝘴 𝘘𝘦𝘦𝘯 𝘞𝘈 𝘣𝘰𝘵",
+body:"",
 showAdAttribution: true,
 mediaType:2,
 thumbnail: mhatadzenyu,
-mediaUrl:`https://youtu.be/ww4z2m3uORU`, 
-sourceUrl: `https://youtu.be/ww4z2m3uORU`,
+mediaUrl:``, 
+sourceUrl: ``,
 }}
 }
 const dripbabe = fs.readFileSync('./Zimbot/leave.mp3')
