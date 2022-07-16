@@ -191,11 +191,11 @@ showAdAttribution: true,
 title: "ZIM BOT V4",
 body: "GIVE IT A STAR",
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
+mediaUrl: ``,
 description: 'DRIPS OFC',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
-sourceUrl: "https://github.com/FahriAdison",
+sourceUrl: "",
 detectLinks: false,
     }}
 
