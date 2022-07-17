@@ -1150,11 +1150,14 @@ ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊ ANTILINK ▊▊▊*\n\n@${kice.s
 }
 }
 if (db.settings[botNumber].grouponly) {
-if (m.chat.endsWith('@s.whatsapp.net')) {
-reply(mess.grouponly)
-ZimBotInc.updateBlockStatus(m.sender,'block')
-}
-}
+  if (!m.isGroup) {
+    let a = 'a'
+    if (!isCreator) throw `*INBOX NOT ALLOWED*`
+    if (budy === a) 
+    throw  '*inbox not allowed*'
+   
+    }
+  }
 var Apik = ''
 var socket = fetchJson('wss://wss.allsportsapi.com/live_events?widgetKey='+ 'db7fca1f4dfd0fa8b50c30c3b4569a61e0c5c93a79c18864bf9c9b6ab635c427' +'&timezone=+02:00');
 socket.onmessage = function(e) {
